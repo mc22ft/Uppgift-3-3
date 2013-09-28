@@ -1,1 +1,103 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. 
+
+Din uppgift blir att med hjälp av css skapa en sida som så nära du kan återskapar 
+exemplet som du hittar i de skärmdumpar som finns i rootkatalogen ("IE7hela.png" 
+och "IE7mouseover.png"). Till din hjälp har du fått html-filen till vilken du ska 
+skriva css-filen "basic.css". Du får INTE ändra i html-filen utan du ska enbart 
+editera den CSS-fil som finns. Sidan ska vara godtagbar i de senaste webbläsarna.
+
+Layouten har en fast bredd och är centrerad i webbläsarfönstret.
+
+I denna uppgift ska du minst göra en commit per isolerat delproblem. T.ex. en 
+commit efter att du skapat den överliggande layouten, en när du fixat menyn, en 
+när du fått in bakgrundsbilden etc.
+
+De teckensnitt som använts är "Verdana" samt "Times New Roman". Hur du får fram 
+vilka färger som använts kan du nog klura ut genom att använda ett lämpligt 
+grafikverktyg.
+
+När du är färdig så länkar du till uppgiften (en absolut länk till din Cloud9-preview) 
+från din laborationsportal samt skriver ett kortare blogginlägg om uppgiften på 
+startsidan på din blogg samt länkar till uppgiften.
+*/
+#container {
+    width: 700px;
+    margin:auto;
+    border: 1px solid #ccc8b8;
+    
+    background-repeat: no-repeat;
+    background-image: url("pics/coffey.jpg");
+    padding-bottom:170px;
+    background-size: 100%;
+    }
+    
+#topbar {
+    background-color: #4f463c;
+    color: #e8e5d1;
+    padding-left:555px;
+    
+    margin-left:0;
+    }
+    
+.active li a:first-child{
+    color:red;
+    display:block;
+    background-color:#red;
+    padding: 6px 20px;
+   
+    
+}  
+/*#menu :first-child {
+    background-color:red;
+}*/
+#menu {
+    
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top:200px;
+    
+}
+#menu li a{
+    color:#e8e5d1;
+    float:left;
+    margin-left:1px;
+    padding: 6px 20px;
+    background-color:#786f66;
+    display: block;
+    text-decoration: none;
+}
+
+#content{
+    margin-top:-7px;
+    background-color:#e8e5d1;
+    border-top:40px solid  #4f463c;
+}
+/*--------------------------------------------------------*/
+
+#maincontent {
+    margin-left:20px;
+    color:#786f66;
+    width:40%;
+    border-right: 1px solid black;
+    
+}
+#maincontent img {
+    float:left;
+}
+#maincontent p {
+    float:left;
+}
+#subcontent {
+    float:left;
+    background-color:blue;
+    margin-right:20px;
+    width:40%;
+}
+
+#bottomcontent {
+    clear:both;
+}
